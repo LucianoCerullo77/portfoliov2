@@ -19,7 +19,7 @@ const index = () => {
           </h1>
           <p className="py-4 text-gray-400 max-w-[70%] m-auto">
             I'm a Front-end ReactJs Developer specializing in building digital
-            experiences. Currently im focused on building Fron-end web
+            experiences. Currently im focused on building Front-end web
             applications while im learning Back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

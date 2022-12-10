@@ -16,7 +16,7 @@ function index() {
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/logoWhite.png"
+          src="../public/assets/logoWhite.png"
           alt="logo"
           width={125}
           height={50}
@@ -62,7 +62,7 @@ function index() {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/logoRed.png"
+                src="../public/assets/logoRed.png"
                 width="120"
                 height="35"
                 alt="x"
