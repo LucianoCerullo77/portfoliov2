@@ -15,12 +15,10 @@ function index() {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="../../public/assets/images/logo.png"
-          alt="logo"
-          width={125}
-          height={50}
-        />
+        <p className="text-[#d72323] text-sm uppercase ml-4">
+          {" "}
+          Luciano Cerullo &lt;/&gt;{" "}
+        </p>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -50,7 +48,9 @@ function index() {
       </div>
 
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/40" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/40" : ""
+        }
       >
         <div
           className={
@@ -61,12 +61,10 @@ function index() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src='../../public/assets/images/logo.png'
-                width="120"
-                height="35"
-                alt="x"
-              />
+              <p className="text-[#d72323] text-sm uppercase ml-4">
+                {" "}
+                Luciano Cerullo &lt;/&gt;{" "}
+              </p>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
