@@ -24,6 +24,6 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-100 rounded-xl uppercase bg-gradient-to-r from-[#D72323] to-[#8D021F] text-white
+    @apply shadow-xl shadow-gray-100 rounded-xl uppercase bg-gradient-to-r from-[#D72323] to-[#ab1c1c] text-white
   }
 }
