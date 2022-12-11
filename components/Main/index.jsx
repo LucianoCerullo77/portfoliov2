@@ -8,7 +8,7 @@ const index = () => {
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-300">
+          <p className="uppercase text-sm tracking-widest text-gray-500">
             Let's build something cool
           </p>
           <h1 className="py-4 text-gray-200">
@@ -17,7 +17,7 @@ const index = () => {
           <h1>
             A <span className="text-[#D72323]">Front-end</span> Developer
           </h1>
-          <p className="py-4 text-gray-400 max-w-[70%] m-auto">
+          <p className="py-4 text-gray-500 max-w-[70%] m-auto">
             I'm a Front-end ReactJs Developer specializing in building digital
             experiences. Currently im focused on building Front-end web
             applications while im learning Back-end technologies.
