@@ -13,9 +13,9 @@ function index() {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#111111]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <p className="text-[#d72323] text-sm uppercase ml-4">
+        <p className="text-[#d72323] text-xl ml-4">
           {" "}
           Luciano Cerullo &lt;/&gt;{" "}
         </p>
@@ -61,7 +61,7 @@ function index() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <p className="text-[#d72323] text-sm uppercase ml-4">
+              <p className="text-[#d72323] text-lg ">
                 {" "}
                 Luciano Cerullo &lt;/&gt;{" "}
               </p>
@@ -100,16 +100,16 @@ function index() {
                   Let's connect
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                     <FaLinkedinIn />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                     <FaGithub />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                     <AiOutlineMail />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                     <BsPersonLinesFill />
                   </div>
                 </div>
