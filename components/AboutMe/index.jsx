@@ -10,8 +10,24 @@ const index = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600"> This is some things about me </p>
-          <p className="py-2 text-gray-500">lorem impsum</p>
-          <p className="py-2 text-gray-500">lorem ipsum</p>
+          <p className="py-2 text-gray-500">
+            I am a FrontEnd ReactJs Developer based in Argentina. I have a
+            passion for learning new technologies and I am always looking for
+            new opportunities. I've started learning about web development 1
+            year ago and now im looking for a Job as FrontEnd Developer.
+          </p>
+          <p className="py-2 text-gray-500">
+            Most of the time i'm looking for new experiences, since i've worked
+            with teams, it made my way as Developer much easier and after being
+            making my own projects, i've preffer joining a team to work hand to
+            hand with them.
+          </p>
+          <p className="py-2 text-gray-500">
+            Most of the my hobbies are listening to music (Arctic Monkeys, The
+            Neighbourhood and Imagine Dragons are some of my favourite),
+            watching movies (I love Interestellar and SuperHero's movies) and
+            take pictures (even if i don't know how).
+          </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Checkout some of my latest projects
           </p>
