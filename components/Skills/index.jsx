@@ -9,12 +9,12 @@ const index = () => {
           Skills
         </p>
         <h2 className="py-4">What Can I Do?</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8    ">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.png"
+                  src="/html.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -29,7 +29,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css.png"
+                  src="/css.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -44,7 +44,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
+                  src="/javascript.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -59,7 +59,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src="/react.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -74,7 +74,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/node.png"
+                  src="/node.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -89,7 +89,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/mongo.png"
+                  src="/mongo.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -104,7 +104,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/firebase.png"
+                  src="/firebase.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -119,7 +119,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/nextjs.png"
+                  src="/nextjs.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -134,7 +134,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/bootstrap.png"
+                  src="/bootstrap.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -149,7 +149,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                  src="/tailwind.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -164,7 +164,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/git.png"
+                  src="/git.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -179,7 +179,7 @@ const index = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github1.png"
+                  src="/github1.png"
                   width="64"
                   height="64"
                   alt="/"
