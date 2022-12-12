@@ -12,7 +12,7 @@ function index() {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#111111]">
+    <div className="fixed w-full h-20 shadow-sm z-[100] bg-[#111111]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <p className="text-[#d72323] text-xl ml-4">
           {" "}
