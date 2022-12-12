@@ -9,7 +9,7 @@ const index = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600"> This is some things about me </p>
+          <p className="py-2 text-gray-600"> These are some things about me </p>
           <p className="py-2 text-gray-500">
             I am a FrontEnd ReactJs Developer based in Argentina. I have a
             passion for learning new technologies and I am always looking for
