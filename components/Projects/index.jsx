@@ -1,8 +1,8 @@
 import React from "react";
-import Lolo from "../public/projects/Lolo.png";
-import Fennex from "../public/projects/Fennex.png";
-import Olivia from "../public/projects/Olivia.png";
-import CabinnInn from "../public/CabinnInn.png";
+import Lolo from "../../public/Lolo.png";
+import Fennex from "../../public/Fennex.png";
+import Olivia from "../../public/Olivia.png";
+import CabinnInn from "../../public/CabinnInn.png";
 import ProjectItem from "../ProjectItem";
 
 const index = () => {
