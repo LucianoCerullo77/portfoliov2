@@ -2,6 +2,8 @@ import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
+import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import Link from 'next/link'
 
 const index = () => {
   return (
@@ -99,6 +101,13 @@ const index = () => {
               </form>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center py-12">
+            <Link href="/">
+                <div className="rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <HiOutlineChevronDoubleUp className="text-[#d72323]" size={30}/>
+                </div>
+            </Link>
         </div>
       </div>
     </div>
