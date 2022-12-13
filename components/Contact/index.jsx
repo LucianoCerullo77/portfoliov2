@@ -32,7 +32,7 @@ const index = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
-                <div className="flex items-center justify-between py-4 ">
+                <div className="flex items-center justify-between py-4 mt-16">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <FaLinkedinIn />
                   </div>
@@ -62,7 +62,9 @@ const index = () => {
                     />
                   </div>
                   <div className="flex flex-col py-2">
-                    <label className="uppercase text-sm py-2">Phone Number</label>
+                    <label className="uppercase text-sm py-2">
+                      Phone Number
+                    </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-400"
                       type="text"
@@ -70,17 +72,30 @@ const index = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                <label className="uppercase text-sm py-2">Email</label>
-                <input className="border-2 rounded-lg p-3 flex border-gray-400" type="email"/>
+                  <label className="uppercase text-sm py-2">Email</label>
+                  <input
+                    className="border-2 rounded-lg p-3 flex border-gray-400"
+                    type="email"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
-                <label className="uppercase text-sm py-2">Subject</label>
-                <input className="border-2 rounded-lg p-3 flex border-gray-400" type="text"/>
+                  <label className="uppercase text-sm py-2">Subject</label>
+                  <input
+                    className="border-2 rounded-lg p-3 flex border-gray-400"
+                    type="text"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
-                <label className="uppercase text-sm py-2">Message</label>
-                <textarea className="border-2 rounded-lg py-3 border-gray-400" rows="10" type="text"/>
+                  <label className="uppercase text-sm py-2">Message</label>
+                  <textarea
+                    className="border-2 rounded-lg py-3 border-gray-400"
+                    rows="10"
+                    type="text"
+                  />
                 </div>
+                <button className="w-full mt-4 p-4 hover:scale-105 ease-in duration-300">
+                  Send Message
+                </button>
               </form>
             </div>
           </div>
