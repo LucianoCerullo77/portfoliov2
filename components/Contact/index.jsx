@@ -50,6 +50,40 @@ const index = () => {
             </div>
           </div>
           {/*right*/}
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4">
+            <div className="p-4">
+              <form>
+                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                  <div className="flex flex-col py-2">
+                    <label className="uppercase text-sm py-2">Name</label>
+                    <input
+                      className="border-2 rounded-lg p-3 flex border-gray-400"
+                      type="text"
+                    />
+                  </div>
+                  <div className="flex flex-col py-2">
+                    <label className="uppercase text-sm py-2">Phone Number</label>
+                    <input
+                      className="border-2 rounded-lg p-3 flex border-gray-400"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col py-2">
+                <label className="uppercase text-sm py-2">Email</label>
+                <input className="border-2 rounded-lg p-3 flex border-gray-400" type="email"/>
+                </div>
+                <div className="flex flex-col py-2">
+                <label className="uppercase text-sm py-2">Subject</label>
+                <input className="border-2 rounded-lg p-3 flex border-gray-400" type="text"/>
+                </div>
+                <div className="flex flex-col py-2">
+                <label className="uppercase text-sm py-2">Message</label>
+                <textarea className="border-2 rounded-lg py-3 border-gray-400" rows="10" type="text"/>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
