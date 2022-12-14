@@ -59,7 +59,7 @@ const index = () => {
                   <div className="flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-400"
+                      className="border-2 rounded-lg p-3 flex border-gray-400 text-[#111111]"
                       type="text"
                     />
                   </div>
@@ -68,7 +68,7 @@ const index = () => {
                       Phone Number
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-400"
+                      className="border-2 rounded-lg p-3 flex border-gray-400 text-[#111111]"
                       type="text"
                     />
                   </div>
@@ -76,21 +76,21 @@ const index = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-400"
+                    className="border-2 rounded-lg p-3 flex border-gray-400 text-[#111111]"
                     type="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-400"
+                    className="border-2 rounded-lg p-3 flex border-gray-400 text-[#111111]"
                     type="text"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg py-3 border-gray-400"
+                    className="border-2 rounded-lg py-3 border-gray-400 text-[#111111]"
                     rows="10"
                     type="text"
                   />
