@@ -16,7 +16,7 @@ function index() {
         setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow)
+    window.addEventListener("scroll", handleShadow);
   }, []);
 
   const handleNav = () => {
@@ -24,29 +24,36 @@ function index() {
   };
 
   return (
-    <div className={shadow ? "fixed w-full h-20 shadow-sm z-[100] bg-[#111111]" : "fixed w-full h-20 z-[100]"  }>
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-sm z-[100] bg-[#111111]"
+          : "fixed w-full h-20 z-[100]"
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <p className="text-[#d72323] text-xl ml-4">
-          {" "}
-          Luciano Cerullo &lt;/&gt;{" "}
-        </p>
+        <Link href="/">
+          <p className="text-[#d72323] text-xl ml-4">
+            Luciano Cerullo &lt;/&gt;
+          </p>
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -72,10 +79,11 @@ function index() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <p className="text-[#d72323] text-lg ">
-                {" "}
-                Luciano Cerullo &lt;/&gt;{" "}
-              </p>
+              <Link href="/">
+                <p className="text-[#d72323] text-lg ">
+                  Luciano Cerullo &lt;/&gt;
+                </p>
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -93,16 +101,16 @@ function index() {
                 <Link href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#about">
                   <li className="py-4 text-sm">About</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#skills">
                   <li className="py-4 text-sm">Skills</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#projects">
                   <li className="py-4 text-sm">Projects</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#contact">
                   <li className="py-4 text-sm">Contact</li>
                 </Link>
               </ul>
