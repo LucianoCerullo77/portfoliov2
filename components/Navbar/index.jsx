@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -6,13 +6,25 @@ import { BsPersonLinesFill } from "react-icons/bs";
 
 function index() {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 60) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow)
+  }, []);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-sm z-[100] bg-[#111111]">
+    <div className={shadow ? "fixed w-full h-20 shadow-sm z-[100] bg-[#111111]" : "fixed w-full h-20 z-[100]"  }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <p className="text-[#d72323] text-xl ml-4">
           {" "}
@@ -30,10 +42,14 @@ function index() {
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Projects
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Contact
+              </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
