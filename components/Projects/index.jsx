@@ -18,25 +18,25 @@ const index = () => {
             title="LoloStore"
             backgroundImg={Lolo}
             technologies="HTML - CSS"
-            projectURL="/property"
+            projectURL="/Lolo"
           />
           <ProjectItem
             title="Fennex"
             backgroundImg={Fennex}
             technologies="Advanced ReactJs "
-            projectURL="/property"
+            projectURL="/Fennex"
           />
           <ProjectItem
             title="Sweet Olivia"
             backgroundImg={Olivia}
             technologies="ReactJs"
-            projectURL="/property"
+            projectURL="/Sweet-Olivia"
           />
           <ProjectItem
             title="CabinnInn"
             backgroundImg={CabinnInn}
             technologies="ReactJs"
-            projectURL="/property"
+            projectURL="/CabinnInn"
           />
         </div>
       </div>
