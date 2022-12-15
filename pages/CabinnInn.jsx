@@ -27,8 +27,8 @@ const index = () => {
           <p>Project</p>
           <h2>CabinnInn</h2>
           <p className="py-2">lorem ipsum</p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4 mr-8">Repository</button>
+          <button className="px-8 py-2 mt-4 mr-8"><a href="https://clon-no-country.vercel.app" target='_blank'>Demo</a></button>
+          <button className="px-8 py-2 mt-4 mr-8"><a href="https://github.com/No-Country/c8-22-m-javareact" target="_blank">Repository</a></button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-600 rounded-xl p-4">
           <div className="p-2">
