@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { BiDownload } from "react-icons/bi";
 
 const index = () => {
   return (
@@ -24,16 +24,27 @@ const index = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-              <FaLinkedinIn />
+              <a
+                href="https://www.linkedin.com/in/lucianocerullo77/"
+                target="_blank"
+              >
+                <FaLinkedinIn />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-              <FaGithub />
+              <a href="https://github.com/LucianoCerullo77" target="_blank">
+                <FaGithub />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-              <BsPersonLinesFill />
+              <a
+                href="/LucianoCerulloResume.pdf"
+                alt="resume"
+                rel="noopener noreferrer"
+                download
+              >
+                <BiDownload />
+              </a>
             </div>
           </div>
         </div>

@@ -2,8 +2,8 @@ import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
-import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
-import Link from 'next/link'
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Link from "next/link";
 
 const index = () => {
   return (
@@ -54,7 +54,7 @@ const index = () => {
           {/*right*/}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form action="mailto:lucianonicolas10@gmail.com" method="post" enctype="text/plain">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Name</label>
@@ -103,11 +103,11 @@ const index = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-            <Link href="/">
-                <div className="rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <HiOutlineChevronDoubleUp className="text-[#d72323]" size={30}/>
-                </div>
-            </Link>
+          <Link href="/">
+            <div className="rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#d72323]" size={30} />
+            </div>
+          </Link>
         </div>
       </div>
     </div>

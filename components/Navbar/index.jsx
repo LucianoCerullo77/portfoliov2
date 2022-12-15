@@ -1,12 +1,31 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { useRouter } from "next/router";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { BiDownload } from "react-icons/bi";
 
 function index() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#111111");
+  const [linkColor, setLinkColor] = useState("#f5eded");
+  const Router = useRouter();
+
+  useEffect(() => {
+    if (
+      Router.asPath === "/Lolo" ||
+      Router.asPath === "/Fennex" ||
+      Router.asPath === "/Sweet-Olivia" ||
+      Router.asPath === "/CabinnInn"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#f5eded");
+    } else {
+      setNavBg("#111111");
+      setLinkColor("#f5eded");
+    }
+  }, [Router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -25,6 +44,7 @@ function index() {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-sm z-[100] bg-[#111111]"
@@ -38,7 +58,7 @@ function index() {
           </p>
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -99,19 +119,29 @@ function index() {
             <div className="text-black py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href="/">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">Home</li>
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Home
+                  </li>
                 </Link>
                 <Link href="/#about">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">About</li>
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    About
+                  </li>
                 </Link>
                 <Link href="/#skills">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">Skills</li>
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Skills
+                  </li>
                 </Link>
                 <Link href="/#projects">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">Projects</li>
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Projects
+                  </li>
                 </Link>
                 <Link href="/#contact">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">Contact</li>
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Contact
+                  </li>
                 </Link>
               </ul>
               <div className="pt-10">
@@ -120,16 +150,30 @@ function index() {
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <FaLinkedinIn />
+                    <a
+                      href="https://www.linkedin.com/in/lucianocerullo77/"
+                      target="_blank"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <FaGithub />
+                    <a
+                      href="https://github.com/LucianoCerullo77"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <BsPersonLinesFill />
+                    <a
+                      href="/LucianoCerulloResume.pdf"
+                      alt="resume"
+                      rel="noopener noreferrer"
+                      download
+                    >
+                      <BiDownload />
+                    </a>
                   </div>
                 </div>
               </div>
