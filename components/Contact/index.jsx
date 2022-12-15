@@ -34,7 +34,7 @@ const index = () => {
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className="flex items-center justify-between py-4 mt-16">
-                <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-200">
                     <a
                       href="https://www.linkedin.com/in/lucianocerullo77/"
                       target="_blank"
@@ -42,7 +42,7 @@ const index = () => {
                       <FaLinkedinIn />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-200">
                     <a
                       href="https://github.com/LucianoCerullo77"
                       target="_blank"
@@ -50,7 +50,7 @@ const index = () => {
                       <FaGithub />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-200">
                     <a
                       href="/LucianoCerulloResume.pdf"
                       alt="resume"
