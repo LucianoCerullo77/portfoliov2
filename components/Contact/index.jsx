@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { BiDownload } from "react-icons/bi";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 
@@ -35,17 +34,31 @@ const index = () => {
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className="flex items-center justify-between py-4 mt-16">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaLinkedinIn />
+                <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                    <a
+                      href="https://www.linkedin.com/in/lucianocerullo77/"
+                      target="_blank"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaGithub />
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                    <a
+                      href="https://github.com/LucianoCerullo77"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <BsPersonLinesFill />
+                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                    <a
+                      href="/LucianoCerulloResume.pdf"
+                      alt="resume"
+                      rel="noopener noreferrer"
+                      download
+                    >
+                      <BiDownload />
+                    </a>
                   </div>
                 </div>
               </div>
