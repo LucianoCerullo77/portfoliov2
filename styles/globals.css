@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 @layer base {
+
   body {
     @apply bg-[#111111] text-[#f5eded] tracking-wide
   }
