@@ -96,7 +96,7 @@ const index = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Mongo</h3>
+                <h3>MongoDB</h3>
               </div>
             </div>
           </div>

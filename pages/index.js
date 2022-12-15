@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
@@ -12,10 +10,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Luciano's Portfolio</title>
-        <meta name="description" content="Luciano Portfolio, maded in NextJs" />
+        <meta name="description" content="Luciano Portfolio, maded in NextJs with TailWind CSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <Main />
       <AboutMe />
       <Skills />
