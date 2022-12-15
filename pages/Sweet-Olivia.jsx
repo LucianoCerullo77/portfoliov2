@@ -26,9 +26,31 @@ const index = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Sweet Olivia</h2>
-          <p className="py-2">lorem ipsum</p>
-          <button className="px-8 py-2 mt-4 mr-8"><a href="https://sweet-olivia-eight.vercel.app" target='_blank'>Demo</a></button>
-          <button className="px-8 py-2 mt-4 mr-8"><a href="https://github.com/JoaquinBruhn/sweet-olivia" target="_blank">Repository</a></button>
+          <p className="py-2">
+            After finished my ReactJs Course and getting involved in the top 10%
+            of students, I've earned being able to participate in a team to make
+            a real project (again). This team was conformed by 2 UX/UI Designers
+            and 2 FrontEnd ReactJs Developers. Making this project was quite
+            fun, because I've being able to learn more from my team-mates.
+            Making more Daily's and started with Pair-Programming. Also making
+            new friends and colleagues. For this project we used ReactJs as main
+            FrameWork and React-Bootstrap to give stylization to the site. We
+            make and simple e-commerce using Styled-Components and we consume an
+            JSON with the data. One of my best projects.
+          </p>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a href="https://sweet-olivia-eight.vercel.app" target="_blank">
+              Demo
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              href="https://github.com/JoaquinBruhn/sweet-olivia"
+              target="_blank"
+            >
+              Repository
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-600 rounded-xl p-4">
           <div className="p-2">
@@ -41,7 +63,19 @@ const index = () => {
                 <RiRadioButtonFill className="pr-1" /> CSS{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JavaScript{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> ReactJs{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> React-Bootstrap{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Bootstrap{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> WhatsApp-React-Component{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Git{" "}
