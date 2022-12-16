@@ -26,9 +26,25 @@ const index = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Fennex e-commerce</h2>
-          <p className="py-2">lorem ipsum</p>
-          <button className="px-8 py-2 mt-4 mr-8"><a href="https://fennex-six.vercel.app" target='_blank'>Demo</a></button>
-          <button className="px-8 py-2 mt-4 mr-8"><a href="https://github.com/LucianoCerullo77/Fennex-FinalProject" target="_blank">Repository</a></button>
+          <p className="py-2">
+            This Project was maded for my ReactJs Course, maded with advanced
+            ReactJs and Bootstrap. It took me 3 month, using Context, Hooks and
+            Styled Components, Also Firebase for the ID products.
+            My best site untill now, I´m very proud of it.
+          </p>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a href="https://fennex-six.vercel.app" target="_blank">
+              Demo
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              href="https://github.com/LucianoCerullo77/Fennex-FinalProject"
+              target="_blank"
+            >
+              Repository
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-600 rounded-xl p-4">
           <div className="p-2">
@@ -39,6 +55,18 @@ const index = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> CSS{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JavaScript{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> ReactJs{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Firebase{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> React-Bootstrap{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Bootstrap{" "}
