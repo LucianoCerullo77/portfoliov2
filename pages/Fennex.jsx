@@ -29,8 +29,9 @@ const index = () => {
           <p className="py-2">
             This Project was maded for my ReactJs Course, maded with advanced
             ReactJs and Bootstrap. It took me 3 month, using Context, Hooks and
-            Styled Components, Also Firebase for the ID products.
-            My best site untill now, I´m very proud of it.
+            Styled Components, Also Firebase for the ID products. This site is
+            about an Gaming E-commerce. You can buy various products related to
+            PC components. My best site untill now, I´m very proud of it.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a href="https://fennex-six.vercel.app" target="_blank">
