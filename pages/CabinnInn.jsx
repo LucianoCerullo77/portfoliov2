@@ -26,9 +26,30 @@ const index = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>CabinnInn</h2>
-          <p className="py-2">lorem ipsum</p>
-          <button className="px-8 py-2 mt-4 mr-8"><a href="https://clon-no-country.vercel.app" target='_blank'>Demo</a></button>
-          <button className="px-8 py-2 mt-4 mr-8"><a href="https://github.com/No-Country/c8-22-m-javareact" target="_blank">Repository</a></button>
+          <p className="py-2">
+            This is CabinnInn, a ReactJs Project maded for NoCountry. This
+            project was maded with a team of 1 UX/UI Designer, 2 Back-End
+            Developers and 2 Front-End ReactJs Developers. This site is a
+            booking site, were you can reserve cabins in diferent places of
+            Argentina and another countries like Perú and Uruguay. The project
+            used Technologies like Java,Spring Boot, MySQL and Postman for
+            Back-End. HTML, CSS, JavaScript, React, Axios, React-Bootstrap and
+            React-Icons for the Front-End. Working with this team was amazing,
+            totally proud of what we done.
+          </p>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a href="https://clon-no-country.vercel.app" target="_blank">
+              Demo
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              href="https://github.com/No-Country/c8-22-m-javareact"
+              target="_blank"
+            >
+              Repository
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-600 rounded-xl p-4">
           <div className="p-2">
