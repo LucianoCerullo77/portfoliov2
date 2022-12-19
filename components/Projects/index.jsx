@@ -44,7 +44,7 @@ const index = () => {
             title="React To Do app"
             backgroundImg={ReactToDo}
             technologies="ReactJs"
-            projectURL="/ReactToDo"
+            projectURL="/Todo"
           />
           <ProjectItem
             title="New Year Countdown"
