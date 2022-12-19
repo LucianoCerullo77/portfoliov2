@@ -34,12 +34,12 @@ const index = () => {
             store using HTML, CSS, SASS, Git, Github and Bootstrap.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a href="https://lolo-store.vercel.app" target="_blank">
+            <a href="https://lolo-store.vercel.app" target="_blank" rel="noreferrer">
               Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a href="https://github.com/rodridega/Lolo-Store" target="_blank">
+            <a href="https://github.com/rodridega/Lolo-Store" target="_blank" rel="noreferrer">
               Repository
             </a>
           </button>

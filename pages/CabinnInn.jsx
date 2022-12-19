@@ -38,7 +38,7 @@ const index = () => {
             totally proud of what we done.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a href="https://clon-no-country.vercel.app" target="_blank">
+            <a href="https://clon-no-country.vercel.app" target="_blank" rel="noreferrer">
               Demo
             </a>
           </button>
@@ -46,6 +46,7 @@ const index = () => {
             <a
               href="https://github.com/No-Country/c8-22-m-javareact"
               target="_blank"
+              rel="noreferrer"
             >
               Repository
             </a>
