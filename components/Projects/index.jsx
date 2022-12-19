@@ -3,6 +3,8 @@ import Lolo from "../../public/Lolo.png";
 import Fennex from "../../public/Fennex.png";
 import Olivia from "../../public/Olivia.png";
 import CabinnInn from "../../public/CabinnInn.png";
+import Countdown from "../../public/countdown.png"
+import ReactToDo from "../../public/reacttodo.png";
 import ProjectItem from "../ProjectItem";
 
 const index = () => {
@@ -37,6 +39,18 @@ const index = () => {
             backgroundImg={CabinnInn}
             technologies="ReactJs"
             projectURL="/CabinnInn"
+          />
+          <ProjectItem
+            title="React To Do app"
+            backgroundImg={ReactToDo}
+            technologies="ReactJs"
+            projectURL="/ReactToDo"
+          />
+          <ProjectItem
+            title="New Year Countdown"
+            backgroundImg={Countdown}
+            technologies="HTML - CSS - JS"
+            projectURL="/Countdown"
           />
         </div>
       </div>
