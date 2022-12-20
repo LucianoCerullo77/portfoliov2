@@ -32,7 +32,11 @@ const index = () => {
             first projects.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a href="https://reacttodo-one.vercel.app" target="_blank" rel="noreferrer">
+            <a
+              href="https://reacttodo-one.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
               Demo
             </a>
           </button>
