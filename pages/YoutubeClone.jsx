@@ -31,8 +31,8 @@ const index = () => {
             Honestly I didn't like it). The database used was the RapidAPI
             Youtube.v3 API, bringing the Videos,Channels, and more info about
             (Likes, Views). I felt like Google making this project, very funnny.
-            Fun Fact : The Midudev Channel that appear in the Sidebar is one of my favourites Tech
-            Creators.
+            Fun Fact : The Midudev Channel that appear in the Sidebar is one of
+            my favourites Tech Creators.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
@@ -45,7 +45,7 @@ const index = () => {
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://github.com/LucianoCerullo77/weatherapp"
+              href="https://github.com/LucianoCerullo77/youtubeclone"
               target="_blank"
               rel="noreferrer"
             >
@@ -70,10 +70,7 @@ const index = () => {
                 <RiRadioButtonFill className="pr-1" /> ReactJs{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> NextJs{" "}
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> TailWindCSS{" "}
+                <RiRadioButtonFill className="pr-1" /> Material UI{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Git{" "}
