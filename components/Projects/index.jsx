@@ -3,8 +3,10 @@ import Lolo from "../../public/Lolo.png";
 import Fennex from "../../public/Fennex.png";
 import Olivia from "../../public/Olivia.png";
 import CabinnInn from "../../public/CabinnInn.png";
-import Countdown from "../../public/countdown.png"
+import Countdown from "../../public/countdown.png";
 import ReactToDo from "../../public/reacttodo.png";
+import WeatherApp from "../../public/weatherapp.png";
+import YoutubeClone from "../../public/Youtube-clone.png";
 import ProjectItem from "../ProjectItem";
 
 const index = () => {
@@ -51,6 +53,18 @@ const index = () => {
             backgroundImg={Countdown}
             technologies="HTML - CSS - JS"
             projectURL="/Countdown"
+          />
+          <ProjectItem
+            title="Weather App - 2023"
+            backgroundImg={WeatherApp}
+            technologies="NextJs - TailWindCSS"
+            projectURL="/WeatherApp"
+          />
+          <ProjectItem
+            title="Youtube Clone"
+            backgroundImg={YoutubeClone}
+            technologies="ReactJs - Material UI"
+            projectURL="/YoutubeClone"
           />
         </div>
       </div>
