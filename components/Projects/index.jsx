@@ -19,12 +19,6 @@ const index = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="React To Do app"
-            backgroundImg={ReactToDo}
-            technologies="ReactJs"
-            projectURL="/Todo"
-          />
-          <ProjectItem
             title="New Year Countdown"
             backgroundImg={Countdown}
             technologies="HTML - CSS - JS"
@@ -41,6 +35,12 @@ const index = () => {
             backgroundImg={Fennex}
             technologies="Advanced ReactJs "
             projectURL="/Fennex"
+          />
+          <ProjectItem
+            title="React To Do app"
+            backgroundImg={ReactToDo}
+            technologies="ReactJs"
+            projectURL="/Todo"
           />
           <ProjectItem
             title="Sweet Olivia"
