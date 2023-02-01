@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
 
@@ -38,7 +37,7 @@ const index = () => {
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
               <a
-                href="/CV-Luciano-Cerullo-2022.pdf"
+                href="/CV-Luciano-Cerullo-2023.pdf"
                 alt="resume"
                 rel="noopener noreferrer"
                 download
