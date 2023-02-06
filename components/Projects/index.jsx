@@ -7,8 +7,8 @@ import Countdown from "../../public/countdown.png";
 import ReactToDo from "../../public/reacttodo.png";
 import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
-import DadJokes from "../../public/dadJokes.png"
-import EnglishDictionary from "../../public/englishDictionary"
+import DadJokes from "../../public/dadJokes.png";
+import EnglishDictionary from "../../public/englishDictionary.png";
 import ProjectItem from "../ProjectItem";
 
 const index = () => {
@@ -72,7 +72,7 @@ const index = () => {
             title="Dad Jokes"
             backgroundImg={DadJokes}
             technologies="HTML - CSS - JS"
-            projectURL="/YoutubeClone"
+            projectURL="/DadJokes"
           />
           <ProjectItem
             title="English Dictionary"
