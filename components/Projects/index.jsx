@@ -7,6 +7,8 @@ import Countdown from "../../public/countdown.png";
 import ReactToDo from "../../public/reacttodo.png";
 import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
+import DadJokes from "../../public/dadJokes.png"
+import EnglishDictionary from "../../public/englishDictionary"
 import ProjectItem from "../ProjectItem";
 
 const index = () => {
@@ -64,6 +66,18 @@ const index = () => {
             title="Youtube Clone"
             backgroundImg={YoutubeClone}
             technologies="ReactJs - Material UI"
+            projectURL="/YoutubeClone"
+          />
+          <ProjectItem
+            title="Dad Jokes"
+            backgroundImg={DadJokes}
+            technologies="HTML - CSS - JS"
+            projectURL="/YoutubeClone"
+          />
+          <ProjectItem
+            title="English Dictionary"
+            backgroundImg={EnglishDictionary}
+            technologies="HTML - CSS - JS"
             projectURL="/YoutubeClone"
           />
         </div>
