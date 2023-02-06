@@ -27,16 +27,13 @@ const index = () => {
           <p>Project</p>
           <h2>Dad Jokes Generator</h2>
           <p className="py-2">
-            This Project was maded for testing my skills with Material UI (
-            Honestly I didn't like it). The database used was the RapidAPI
-            Youtube.v3 API, bringing the Videos,Channels, and more info about
-            (Likes, Views). I felt like Google making this project, very funnny.
-            Fun Fact : The Midudev Channel that appear in the Sidebar is one of
-            my favourites Tech Creators.
+            This Project was maded because i was bored, the site is quite
+            simple, you only click in the button and then a random joke will
+            appear. This site works with the API "Dad Jokes" from API-Ninjas.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://youtubeclonev1.vercel.app"
+              href="https://dadjokes-ivory.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -45,7 +42,7 @@ const index = () => {
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://github.com/LucianoCerullo77/youtubeclone"
+              href="https://github.com/LucianoCerullo77/dadjokes"
               target="_blank"
               rel="noreferrer"
             >
