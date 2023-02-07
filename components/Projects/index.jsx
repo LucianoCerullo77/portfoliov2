@@ -78,7 +78,7 @@ const index = () => {
             title="English Dictionary"
             backgroundImg={EnglishDictionary}
             technologies="HTML - CSS - JS"
-            projectURL="/YoutubeClone"
+            projectURL="/EnglishDictionary"
           />
         </div>
       </div>
