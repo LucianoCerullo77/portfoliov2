@@ -27,13 +27,15 @@ const index = () => {
           <p>Project</p>
           <h2>English Dictionary</h2>
           <p className="py-2">
-            This Project was maded because i was bored, the site is quite
-            simple, you only click in the button and then a random joke will
-            appear. This site works with the API "Dad Jokes" from API-Ninjas.
+            This Project was maded because i was bored (like the dad joke
+            generator), the site is quite simple, you only search the word that
+            you want to know about and the site will show the meaning and a
+            audio sample. The API that I've used was the Free Dictionary API
+            (https://dictionaryapi.dev).
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://dadjokes-ivory.vercel.app"
+              href="https://english-dictionary-two.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -42,7 +44,7 @@ const index = () => {
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://github.com/LucianoCerullo77/dadjokes"
+              href="https://github.com/LucianoCerullo77/englishDictionary"
               target="_blank"
               rel="noreferrer"
             >
