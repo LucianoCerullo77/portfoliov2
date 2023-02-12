@@ -33,6 +33,18 @@ const index = () => {
             projectURL="/Lolo"
           />
           <ProjectItem
+            title="Dad Jokes"
+            backgroundImg={DadJokes}
+            technologies="HTML - CSS - JS"
+            projectURL="/DadJokes"
+          />
+          <ProjectItem
+            title="English Dictionary"
+            backgroundImg={EnglishDictionary}
+            technologies="HTML - CSS - JS"
+            projectURL="/EnglishDictionary"
+          />
+          <ProjectItem
             title="Fennex"
             backgroundImg={Fennex}
             technologies="Advanced ReactJs "
@@ -67,18 +79,6 @@ const index = () => {
             backgroundImg={YoutubeClone}
             technologies="ReactJs - Material UI"
             projectURL="/YoutubeClone"
-          />
-          <ProjectItem
-            title="Dad Jokes"
-            backgroundImg={DadJokes}
-            technologies="HTML - CSS - JS"
-            projectURL="/DadJokes"
-          />
-          <ProjectItem
-            title="English Dictionary"
-            backgroundImg={EnglishDictionary}
-            technologies="HTML - CSS - JS"
-            projectURL="/EnglishDictionary"
           />
         </div>
       </div>
