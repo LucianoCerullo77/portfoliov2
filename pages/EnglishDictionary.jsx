@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import EnglishDictionary from "../public/englishDictionary.png";
+import EnglishDictionary from "../public/englishdictionary.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

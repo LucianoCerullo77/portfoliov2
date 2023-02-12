@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import DadJokes from "../public/dadJokes.png";
+import DadJokes from "../public/dadjokes.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
