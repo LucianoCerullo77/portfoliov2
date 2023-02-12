@@ -7,8 +7,8 @@ import Countdown from "../../public/countdown.png";
 import ReactToDo from "../../public/reacttodo.png";
 import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
-import DadJokes from "../../public/dadJokes.png";
-import EnglishDictionary from "../../public/englishDictionary.png";
+import DadJokes from "../../public/dadjokes.png";
+import EnglishDictionary from "../../public/englishdictionary.png";
 import ProjectItem from "../ProjectItem";
 
 const index = () => {
