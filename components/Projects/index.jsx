@@ -8,6 +8,7 @@ import ReactToDo from "../../public/reacttodo.png";
 import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
 import DadJokes from "../../public/dadjokes.png";
+import Programa from "../../public/Programa.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
 import ProjectItem from "../ProjectItem";
 
@@ -79,6 +80,18 @@ const index = () => {
             backgroundImg={YoutubeClone}
             technologies="ReactJs - Material UI"
             projectURL="/YoutubeClone"
+          />
+          <ProjectItem
+            title="Youtube Clone"
+            backgroundImg={Programa}
+            technologies="ReactJs - Material UI"
+            projectURL="/Pro-grama"
+          />
+          <ProjectItem
+            title="Youtube Clone"
+            backgroundImg={Programa}
+            technologies="ReactJs - Material UI"
+            projectURL="/Pro-grama"
           />
         </div>
       </div>
