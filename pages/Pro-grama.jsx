@@ -72,7 +72,7 @@ const index = () => {
                 <RiRadioButtonFill className="pr-1" /> ReactJs{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> NextJs{" "}
+                <RiRadioButtonFill className="pr-1" /> Vite{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> TailWindCSS{" "}
