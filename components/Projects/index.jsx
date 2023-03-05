@@ -82,15 +82,15 @@ const index = () => {
             projectURL="/YoutubeClone"
           />
           <ProjectItem
-            title="Youtube Clone"
+            title="Pro-Grama"
             backgroundImg={Programa}
-            technologies="ReactJs - Material UI"
+            technologies="ReactJs - Vite - TailWindCSS"
             projectURL="/Pro-grama"
           />
           <ProjectItem
-            title="Youtube Clone"
+            title="Pro-Grama"
             backgroundImg={Programa}
-            technologies="ReactJs - Material UI"
+            technologies="ReactJs - Vite - TailWindCSS"
             projectURL="/Pro-grama"
           />
         </div>
