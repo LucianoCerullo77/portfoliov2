@@ -38,7 +38,7 @@ const index = () => {
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://weatherapplc.vercel.app"
+              href="https://pro-grama.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -47,7 +47,7 @@ const index = () => {
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://github.com/LucianoCerullo77/weatherapp"
+              href="https://github.com/No-Country/s6-02-m-java-react"
               target="_blank"
               rel="noreferrer"
             >
