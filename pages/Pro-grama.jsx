@@ -27,10 +27,14 @@ const index = () => {
           <p>Project</p>
           <h2>Pro-Grama</h2>
           <p className="py-2">
-            This Project was maded for testing my skills with TailWindCSS and
-            NextJs, It took me just a few weeks. The data for the project that
-            I've use was the WeatherMap API, bringing the temperature, wind,
-            humidity, etc. Just a simple project but very complex about.
+            This Project was maded with a team of 15 members! 5 Backend
+            Developers! 6 Front-End Developers! 2 UX/UI Designers! and a Quality
+            Analist - QA. This is Pro-Grama, a platform about programming
+            Courses that i've maded with a team of Developers. This project uses
+            ReactJs, TailWindCSS, Vite and the Backend API maded for the page.
+            It was really really fun making this project with the amazing people
+            that i was assigned to. Im pretty sure that i would choose this
+            project once again.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
