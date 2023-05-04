@@ -9,6 +9,7 @@ import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
 import DadJokes from "../../public/dadjokes.png";
 import Programa from "../../public/Programa.png";
+import HomeHero from "../../public/HomeHero.png"
 import EnglishDictionary from "../../public/englishdictionary.png";
 import ProjectItem from "../ProjectItem";
 
@@ -88,10 +89,10 @@ const index = () => {
             projectURL="/Pro-grama"
           />
           <ProjectItem
-            title="Pro-Grama"
-            backgroundImg={Programa}
-            technologies="ReactJs - Vite - TailWindCSS"
-            projectURL="/Pro-grama"
+            title="Home-Hero"
+            backgroundImg={HomeHero}
+            technologies="ReactJs - TypeScript - Vite - TailWindCSS - Redux"
+            projectURL="/Home-Hero"
           />
         </div>
       </div>

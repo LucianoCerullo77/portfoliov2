@@ -52,7 +52,7 @@ const index = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-200">
                     <a
-                      href="/CV-Luciano-Cerullo-2022.pdf"
+                      href="/CV-Luciano-Cerullo-2023-English.pdf"
                       alt="resume"
                       rel="noopener noreferrer"
                       download
