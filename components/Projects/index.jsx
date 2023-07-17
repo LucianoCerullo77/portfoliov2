@@ -100,13 +100,13 @@ const index = () => {
             title="Gifs-App"
             backgroundImg={GifsApp}
             technologies="Angular - TypeScript - Bootstrap"
-            projectURL="/Gifsapp"
+            projectURL="/Gifs-app"
           />
           <ProjectItem
             title="Country-app"
             backgroundImg={CountryApp}
             technologies="Angular - TypeScript - Bootstrap"
-            projectURL="/Countryapp"
+            projectURL="/Country-app"
           />
         </div>
       </div>
