@@ -1,5 +1,5 @@
 import { RiRadioButtonFill } from "react-icons/ri";
-import GifsApp from "../../public/Gifs-app.png";
+import GifsApp from "../../public/Gifsapp.png";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

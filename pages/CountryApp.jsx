@@ -1,5 +1,5 @@
 import { RiRadioButtonFill } from "react-icons/ri";
-import CountryApp from "../../public/Country-app.png";
+import CountryApp from "../../public/Countryapp.png";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
