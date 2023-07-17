@@ -1,17 +1,19 @@
-import React from "react";
-import Lolo from "../../public/Lolo.png";
-import Fennex from "../../public/Fennex.png";
-import Olivia from "../../public/Olivia.png";
 import CabinnInn from "../../public/CabinnInn.png";
 import Countdown from "../../public/countdown.png";
+import CountryApp from "../../public/Country-app.png";
+import DadJokes from "../../public/dadjokes.png";
+import EnglishDictionary from "../../public/englishdictionary.png";
+import Fennex from "../../public/Fennex.png";
+import GifsApp from "../../public/Gifs-app.png";
+import HomeHero from "../../public/HomeHero.png";
+import Lolo from "../../public/Lolo.png";
+import Olivia from "../../public/Olivia.png";
+import Programa from "../../public/Programa.png";
+import ProjectItem from "../ProjectItem";
+import React from "react";
 import ReactToDo from "../../public/reacttodo.png";
 import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
-import DadJokes from "../../public/dadjokes.png";
-import Programa from "../../public/Programa.png";
-import HomeHero from "../../public/HomeHero.png"
-import EnglishDictionary from "../../public/englishdictionary.png";
-import ProjectItem from "../ProjectItem";
 
 const index = () => {
   return (
@@ -93,6 +95,18 @@ const index = () => {
             backgroundImg={HomeHero}
             technologies="ReactJs - TypeScript - Vite - TailWindCSS - Redux"
             projectURL="/Home-Hero"
+          />
+          <ProjectItem
+            title="Gifs-App"
+            backgroundImg={GifsApp}
+            technologies="Angular - TypeScript - Bootstrap"
+            projectURL="/Gifs-app"
+          />
+          <ProjectItem
+            title="Country-app"
+            backgroundImg={CountryApp}
+            technologies="Angular - TypeScript - Bootstrap"
+            projectURL="/Country-app"
           />
         </div>
       </div>
