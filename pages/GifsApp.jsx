@@ -1,8 +1,8 @@
-import { RiRadioButtonFill } from "react-icons/ri";
-import GifsApp from "../public/Gifsapp.png";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import GifsApp from "../public/Gifsapp.png";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 const index = () => {
   return (

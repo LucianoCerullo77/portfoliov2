@@ -1,8 +1,8 @@
-import { RiRadioButtonFill } from "react-icons/ri";
-import CountryApp from "../public/Countryapp.png";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import CountryApp from "../public/Countryapp.png";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 const index = () => {
   return (
