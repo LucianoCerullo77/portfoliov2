@@ -96,7 +96,7 @@ const index = () => {
             technologies="ReactJs - TypeScript - Vite - TailWindCSS - Redux"
             projectURL="/Home-Hero"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Gifs-App"
             backgroundImg={GifsApp}
             technologies="Angular - TypeScript - Bootstrap"
@@ -107,7 +107,7 @@ const index = () => {
             backgroundImg={CountryApp}
             technologies="Angular - TypeScript - Bootstrap"
             projectURL="/Country-app"
-          />
+          /> */}
         </div>
       </div>
     </div>
