@@ -96,18 +96,18 @@ const index = () => {
             technologies="ReactJs - TypeScript - Vite - TailWindCSS - Redux"
             projectURL="/Home-Hero"
           />
-          {/* <ProjectItem
+          <ProjectItem
             title="Gifs-App"
             backgroundImg={GifsApp}
             technologies="Angular - TypeScript - Bootstrap"
-            projectURL="/Gifs-app"
+            projectURL="/GifsApp"
           />
           <ProjectItem
             title="Country-app"
             backgroundImg={CountryApp}
             technologies="Angular - TypeScript - Bootstrap"
-            projectURL="/Country-app"
-          /> */}
+            projectURL="/CountryApp"
+          />
         </div>
       </div>
     </div>

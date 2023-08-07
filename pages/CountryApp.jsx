@@ -68,6 +68,9 @@ const index = () => {
                 <RiRadioButtonFill className="pr-1" /> JavaScript{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> TypeScript{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Angular{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">

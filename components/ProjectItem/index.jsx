@@ -8,6 +8,8 @@ const index = ({ title, backgroundImg, technologies, projectURL }) => {
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
+        loading="lazy"
+        quality={50}
         alt={title}
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
